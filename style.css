@@ -1,0 +1,125 @@
+
+* {
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.title{
+    color:white;
+}
+.header {
+    background: #333;
+    position: sticky;
+    box-shadow: whitesmoke;
+    text-decoration: none;
+}
+
+.header .flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
+    position: sticky;
+    text-decoration: none;
+}
+
+.header .flex .navbar a {
+    margin: 0 20px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.para{
+    margin:20px;
+    font-size:20px;
+}
+.ph{
+    margin:10px;
+    width:95%;
+    height:600px;
+    border-radius: 10px;
+}
+.teach{
+    display:block;
+}
+
+
+.footer {
+    background-color: grey;
+    margin:5px;
+    border-radius: 20px;
+}
+
+
+.footer .box-container .box h3 {
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    padding:20px 10px;
+}
+
+.footer .box-container .box p {
+    display: block;
+    padding: 20px 20px;
+    font-size: 20px;
+    color: black;
+}
+.footer .credit {
+    margin-top: 20px;
+    line-height: 1;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+}
+
+
+
+
+
+.principal{
+    box-sizing: border-box;
+    background-color: #ccc;
+    border-radius:8px;
+    margin:20px;
+    width:200px;
+    overflow:hidden;
+    height:0 auto;
+    padding:20px 20px;
+    font-size:16px;
+    display: inline-block;
+
+}
+.vp{
+    box-sizing: border-box;
+    background-color: #ccc;
+    border-radius:8px;
+    margin:20px;
+    width:200px;
+    overflow:hidden;
+    height:0 auto;
+    padding:20px 20px;
+    font-size:16px;
+    display: inline-block;
+    
+}
+.about{
+    background-color: grey;
+    border-radius:10px;
+    margin:20px;
+    overflow:hidden;
+    font-size:18px;
+    padding:20px 20px;
+
+}
